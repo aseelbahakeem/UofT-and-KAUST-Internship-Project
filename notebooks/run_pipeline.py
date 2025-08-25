@@ -5,10 +5,10 @@ import papermill as pm
 
 def main():
     notebooks = [
-        "01_Data_Preprocessing_EDA_and_Prompt_Generation.ipynb",
-        "02_Open_Source_Model_Inference.ipynb",                     
+        "01_Preprocessing_and_Prompt_Generation.ipynb",
+        "02_Open_Source_Models_Inference.ipynb",                     
         "03_Commerical_Models_Inference.ipynb",  
-        "04_evaluation_metrics_and_results.ipynb"
+        "04_Evaluation_Metrics_and_Results.ipynb"
     ]
 
     current_dir = Path(__file__).parent
